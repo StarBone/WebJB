@@ -12,7 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #1c0a00;
   color: aliceblue;
-  min-height: 2000px;
+  min-height: 3000px;
 }
 
 /* Navbar */
@@ -140,17 +140,20 @@ body {
 }
 
 /* About Section */
-.about {
-  padding: 8rem 7% 1.4rem;
+.about,
+.mmenu {
+  padding: 7.5rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2,
+.mmenu h2 {
   text-align: center;
   font-size: 2.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
-.about h2 span {
+.about h2 span,
+.mmenu h2 span {
   color: #d5cea3;
 }
 
@@ -159,7 +162,7 @@ body {
 }
 
 .about .row .about-img {
-  margin-top: 8.5rem;
+  margin-top: 3.5rem;
 }
 
 .about .row .about-img img {
@@ -168,7 +171,7 @@ body {
 
 .about .row .content {
   flex: 1 1 35rem;
-  padding: 8rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .about .row .content h3 {
@@ -181,6 +184,15 @@ body {
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.6rem;
+}
+
+/* Menu Section */
+.mmenu p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
 }
 
 /* Media Quaries */
@@ -230,7 +242,7 @@ body {
   }
 
   .about .row .about-img img {
-    height: 40rem;
+    height: 30rem;
     object-fit: cover;
     object-position: center;
   }
