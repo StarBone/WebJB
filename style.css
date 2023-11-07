@@ -12,7 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #1c0a00;
   color: aliceblue;
-  min-height: 5000px;
+  /* min-height: 5000px; */
 }
 
 /* Navbar */
@@ -222,9 +222,8 @@ body {
 /* Contact Section */
 .contact .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: #3c2a21;
-  /* flex-wrap: wrap; */
 }
 
 .contact .row .map {
@@ -236,6 +235,7 @@ body {
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
+  margin-top: -4rem;
   text-align: center;
 }
 
@@ -250,7 +250,7 @@ body {
 
 .contact .row form .input-group input {
   width: 100%;
-  padding: 2rem;
+  padding: 0.5rem;
   font-size: 1.7rem;
   background: none;
 }
@@ -263,6 +263,40 @@ body {
   color: #fff;
   background: #d5cea3;
   cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #3c2a21;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 5rem;
+}
+
+footer .social {
+  padding: 0.3rem 0;
+}
+
+footer .social a {
+  color: #d5cea3;
+  margin: 0.5rem;
+}
+
+footer .social a:hover {
+  color: #1c0a00;
+}
+
+footer .links {
+  padding: 1rem 0;
+}
+
+footer .links a {
+  color: #d5cea3;
+  margin: 0.5rem;
+}
+
+footer .links a:hover {
+  color: #1c0a00;
 }
 
 /* Media Quaries */
