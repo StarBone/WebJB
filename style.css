@@ -222,7 +222,9 @@ body {
 /* Contact Section */
 .contact .row {
   display: flex;
+  /* margin: 3rem 10rem 3rem 10rem; */
   margin-top: 3rem;
+  height: 20rem;
   background-color: #3c2a21;
 }
 
@@ -234,7 +236,7 @@ body {
 
 .contact .row form {
   flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   margin-top: -4rem;
   text-align: center;
 }
@@ -245,21 +247,28 @@ body {
   margin-top: 2rem;
   background: #000;
   border: 1px solid #eee;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .contact .row form .input-group input {
+  color: #fff;
   width: 100%;
   padding: 0.5rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
   background: none;
 }
 
-.contact .row form .btn {
-  margin-top: 3rem;
+.contact .row form .container {
+  display: flex;
+  justify-content: end;
+}
+
+.contact .row form .container .btn {
+  margin-top: 2rem;
   display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
   color: #fff;
   background: #d5cea3;
   cursor: pointer;
@@ -373,6 +382,7 @@ footer .links a:hover {
 
   .contact .row {
     flex-wrap: wrap;
+    height: 100%;
   }
 
   .contact .row .map {
@@ -382,6 +392,10 @@ footer .links a:hover {
   .contact .row form {
     padding-top: 0;
     margin-top: 1rem;
+  }
+
+  .contact .row form .container {
+    justify-content: center;
   }
 }
 /* Mobile */
